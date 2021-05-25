@@ -1,0 +1,51 @@
+@import "../utils/variables";
+
+.why-text {
+  display: flex;
+  flex-direction: column;
+
+  .why-text__line {
+    width: 60px;
+    height: 1px;
+    background-color: map-get($colors, "first");
+    margin-top: 137px;
+    margin-left: 130px;
+  }
+
+  .why-text__description {
+    font-family: map-get($colors, "first");
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: map-get($colors, "first");
+    text-transform: uppercase;
+    margin-left: 210px;
+    margin-top: -9px;
+  }
+
+  .why-text__heading {
+    font-family: map-get($fonts, "second");
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    color: map-get($colors, "first");
+    margin-left: 130px;
+    margin-top: 20px;
+  }
+
+  .why-text__letter{
+    font-family: map-get($fonts, "first");
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: map-get($colors, "text");
+    margin-left: 130px;
+    margin-top: -15px;
+  }
+}

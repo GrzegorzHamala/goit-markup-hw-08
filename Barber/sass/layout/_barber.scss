@@ -1,0 +1,24 @@
+@import "../utils/variables";
+
+.background-barber {
+  height: 890px;
+  background-color: map-get($colors, "block");
+
+  .barber-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .barber-img{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 15px;
+  }
+
+  .barber-men__layout-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
