@@ -1,0 +1,103 @@
+@import "../utils/variables";
+
+.background-block {
+  display: flex;
+  justify-content: center;
+
+  .background-block__button-list {
+    display: inline;
+    list-style: none;
+  }
+}
+
+.background-block__button-text {
+  font-family: map-get($fonts, "first");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: map-get($colors, "block");
+  border: 1px solid map-get($colors, "block");
+  border-radius: 4px;
+  margin-right: 8px;
+
+  &:hover {
+    background-color: map-get($colors, "hover");
+    color: map-get($colors, "primary");
+    cursor: pointer;
+    box-shadow: 2px 3px 8px 5px #00000033;
+    border: 1px solid map-get($colors, "hover");
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .background-block {
+    margin-left: -50px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+  }
+
+  .background-block__button-text--dizajn {
+    margin-top: 15px;
+  }
+
+  .background-block__button-text--all,
+  .background-block__button-text--dizajn {
+    width: 103px;
+    height: 38px;
+  }
+
+  .background-block__button-text--page,
+  .background-block__button-text--marketing {
+    width: 128px;
+    height: 38px;
+  }
+
+  .background-block__button-text--apps {
+    width: 145px;
+    height: 38px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .background-block {
+    margin-left: -40px;
+  }
+
+  .background-block__button-text--all,
+  .background-block__button-text--dizajn {
+    width: 103px;
+    height: 38px;
+  }
+
+  .background-block__button-text--page,
+  .background-block__button-text--marketing {
+    width: 128px;
+    height: 38px;
+  }
+
+  .background-block__button-text--apps {
+    width: 145px;
+    height: 38px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .background-block__button-text--all,
+  .background-block__button-text--marketing {
+    width: 121px;
+    height: 38px;
+  }
+
+  .background-block__button-text--page,
+  .background-block__button-text--dizajn {
+    width: 93px;
+    height: 38px;
+  }
+
+  .background-block__button-text--apps {
+    width: 114px;
+    height: 38px;
+  }
+}
