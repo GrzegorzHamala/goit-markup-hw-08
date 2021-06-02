@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .person-img {
     margin-top: 30px;
   }
@@ -61,6 +61,14 @@
 
   .person-img__icon-link{
     margin-right: 10px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    .person-img__size {
+      width: 290px;
+      height: 280px;
+    }
+  
   }
 }
 

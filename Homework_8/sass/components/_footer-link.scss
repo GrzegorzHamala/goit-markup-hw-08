@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-heading {
     margin-top: 60px;
     margin-bottom: 15px;
@@ -44,6 +44,14 @@
   .footer-icon {
     margin-left: 110px;
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    .footer-icon {
+      margin-left: 25px;
+      margin-bottom: 60px;
+    }
+  
   }
 }
 

@@ -51,7 +51,7 @@
   @include text-color(map-get($colors, "second"));
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background-block {
     background-color: map-get($colors, "primary");
     margin-bottom: -54px;
@@ -75,6 +75,29 @@
     .description__list-text {
       width: 450px;
       margin-bottom: -20px;
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    .description {
+      display: block;
+      margin-left: -50px;
+
+      .description__icon {
+        width: 290px;
+        height: 120px;
+      }
+
+      .description__list-paragraph {
+        width: 290px;
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .description__list-text {
+        width: 290px;
+        margin-bottom: -20px;
+      }
     }
   }
 }

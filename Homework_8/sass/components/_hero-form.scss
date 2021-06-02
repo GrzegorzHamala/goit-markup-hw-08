@@ -115,7 +115,7 @@
   cursor: pointer;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .okno-modal__text {
     font-size: 20px;
     line-height: 1.5;
@@ -159,8 +159,58 @@
     top: 480px;
   }
 
-  .text-form__button-modal{
+  .text-form__button-modal {
     margin-right: 115px;
+    margin-top: 68px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    .okno-modal__text {
+      font-size: 18px;
+      line-height: 1.5;
+      width: 250px;
+      height: 60px;
+    }
+
+    .text-form__input {
+      width: 250px;
+      height: 40px;
+    }
+
+    .text-form__coment {
+      width: 250px;
+      height: 120px;
+    }
+
+    .text-form__person {
+      position: absolute;
+      left: 25px;
+      top: 150px;
+    }
+
+    .text-form__tel {
+      position: absolute;
+      left: 25px;
+      top: 220px;
+    }
+
+    .text-form__mail {
+      position: absolute;
+      left: 25px;
+      top: 290px;
+    }
+  }
+
+  .text-form__accept-text {
+    font-size: 12px;
+    line-height: 1.1;
+    position: absolute;
+    left: 30px;
+    top: 480px;
+  }
+
+  .text-form__button-modal {
+    margin-right: 50px;
     margin-top: 68px;
   }
 }
@@ -209,7 +259,7 @@
     top: 480px;
   }
 
-  .text-form__button-modal{
+  .text-form__button-modal {
     margin-right: 115px;
     margin-top: 68px;
   }
@@ -259,7 +309,7 @@
     top: 441px;
   }
 
-  .text-form__button-modal{
+  .text-form__button-modal {
     margin-right: 165px;
     margin-top: 68px;
   }
