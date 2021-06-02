@@ -1,0 +1,45 @@
+@import "../utils/variables";
+
+.background-img-portfolio {
+  background-color: map-get($colors, "primary");
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px;
+  list-style: none;
+
+  .card__list {
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+      box-shadow: 2px 3px 10px 5px #00000033;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin-left: -40px;
+    margin-right: -60px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .card__list {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

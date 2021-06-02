@@ -1,0 +1,71 @@
+@import "../utils/variables";
+
+.footer-heading {
+  font-family: map-get($fonts, "first");
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: map-get($colors, "primary");
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-icon__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff1a;
+  border-radius: 50%;
+  margin-right: 10px;
+  fill: map-get($colors, "primary");
+  margin-top: 3px;
+
+  &:hover,
+  &:focus  {
+    background-color: map-get($colors, "hover");
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer-heading {
+    margin-top: 60px;
+    margin-bottom: 15px;
+  }
+
+  .footer-icon {
+    margin-left: 110px;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-heading {
+    margin-top: -110px;
+    margin-left: 700px;
+  }
+
+  .footer-icon {
+    margin-left: 760px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-heading {
+    margin-left: 300px;
+    margin-top: -75px;
+  }
+
+  .footer-icon {
+    margin-left: 300px;
+    margin-bottom: 25px;
+  }
+}
