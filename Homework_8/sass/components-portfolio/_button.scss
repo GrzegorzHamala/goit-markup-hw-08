@@ -31,7 +31,7 @@
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background-block {
     margin-left: -50px;
     margin-top: -50px;
@@ -57,6 +57,26 @@
   .background-block__button-text--apps {
     width: 145px;
     height: 38px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    .background-block__button-text--all,
+    .background-block__button-text--apps {
+      width: 103px;
+      height: 38px;
+    }
+
+    .background-block__button-text--dizajn,
+    .background-block__button-text--page {
+      width: 128px;
+      height: 38px;
+    }
+
+    .background-block__button-text--marketing{
+      width: 103px;
+      height: 38px;
+      margin-top: 15px;
+    }
   }
 }
 

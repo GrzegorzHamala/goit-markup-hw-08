@@ -408,23 +408,23 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .okno-modal {
     width: 450px;
-    height: 600px;
+    height: 100%;
   }
 
   .okno-menu {
     width: 480px;
-    height: 600px;
+    height: 100%;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 320px) and (max-width: 479px) {
   .okno-modal {
     width: 300px;
-    height: 600px;
+    height: 100%;
   }
 
   .okno-menu {
     width: 320px;
-    height: 600px;
+    height: 100%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1099,6 +1099,8 @@
   .client__logo {
     width: 226px;
     height: 92px;
+    margin-right: 15px;
+    margin-top: 15px;
   }
 
   .client-heading {
@@ -1397,7 +1399,7 @@
   border: 1px solid #2196F3;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .background-block {
     margin-left: -50px;
     margin-top: -50px;
@@ -1423,6 +1425,25 @@
   .background-block__button-text--apps {
     width: 145px;
     height: 38px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 320px) and (max-width: 479px) {
+  .background-block__button-text--all,
+.background-block__button-text--apps {
+    width: 103px;
+    height: 38px;
+  }
+
+  .background-block__button-text--dizajn,
+.background-block__button-text--page {
+    width: 128px;
+    height: 38px;
+  }
+
+  .background-block__button-text--marketing {
+    width: 103px;
+    height: 38px;
+    margin-top: 15px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1513,9 +1534,13 @@
   margin-left: 24px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card__img {
-    width: 400px;
+    display: none;
+  }
+
+  .card__img-mobile {
+    width: 450px;
     height: 294px;
   }
 
@@ -1527,10 +1552,20 @@
     width: 100%;
   }
 }
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-width: 320px) and (max-width: 479px) {
+  .card__img-mobile {
+    width: 280px;
+    height: 260px;
+  }
+}
 @media screen and (min-width: 768px) {
   .card__img {
     width: 354px;
     height: 294px;
+  }
+
+  .card__img-mobile {
+    display: none;
   }
 
   .card-box {
