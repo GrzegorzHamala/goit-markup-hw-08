@@ -970,7 +970,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  fill: #afb1b8;
   margin-top: 28px;
 }
 
@@ -978,6 +977,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 .person-img__icon-link:focus, .person-img__icon-link:hover {
   fill: #ffffff;
