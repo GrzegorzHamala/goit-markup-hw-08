@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css"/>
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="menu">
+      <div class="container">
+        <div class="nav">
+          <nav>
+            <ul class="nav__list">
+              <li>
+                  <a class="nav__list-studio" href="#"><span class="nav__list-studio nav__list-studio--span">Web</span>Studio</a>
+              </li>
+              <button class="nav__list-button" data-menu-open>
+                <svg width="40px" height="40px">
+                  <use href="images/img_vector/icons.svg#icon-menu"></use>
+                </svg>
+              </button>
+              <div class="nav__list-backdrop is-hidden-menu" data-menu>
+                <div class="okno-menu">
+                  <button class="okno-menu__button-close" data-menu-close>
+                    <svg width="40px" height="40px">
+                      <use href="images/img_vector/icons.svg#icon-button"></use>
+                    </svg>
+                  </button>
+                  <div class="nav__okno">
+                    <div class="nav__mobile">
+                      <a class="nav__mobile-agencja" href="index.html">Agencja</a>
+                      <a class="nav__mobile-portfolio" href="portfolio.html">Portfolio</a>
+                      <a class="nav__mobile-kontakt" href="#">Kontakt</a>
+                      <a class="nav__mobile-tel" href="tel:+48111111111">+48 111 111 111</a>
+                      <a class="nav__mobile-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </div>
+                    <div class="nav__mobile-link">
+                      <a class="nav__mobile-link-inst" href="https://www.instagram.com/">Instagram</a>
+                      <div class="nav__mobile-line"></div>
+                      <a class="nav__mobile-link-tw" href="https://twitter.com/?lang=pl">Twitter</a>
+                      <div class="nav__mobile-line"></div>
+                      <a class="nav__mobile-link-fb" href="https://www.facebook.com/?_rdr">Facebook</a>
+                      <div class="nav__mobile-line"></div>
+                      <a class="nav__mobile-link-ld" href="https://pl.linkedin.com/">LinkedIn</a>
+                    </div>
+                    </div>
+                </div>
+              </div>
+              <li>
+                <a class="nav__list-sub-agencja" href="index.html">Agencja</a>
+              </li>
+              <li>
+                <a class="nav__list-sub-portfolio" href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a class="nav__list-kontakt" href="#">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="nav__link nav__link--mail" href="mailto:info@devstudio.com">
+            <svg class="nav__link nav__link--icon" width="16" height="12">
+              <use href="images/img_vector/icons.svg#icon-mail"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a class="nav__link nav__link--tel" href="tel:+48111111111">
+            <svg class="nav__link nav__link--icon" width="10" height="16">
+              <use href="images/img_vector/icons.svg#icon-tel"></use>
+            </svg>
+            +48 111 111 111
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="background-img-portfolio section">
+        <div class="container">
+          <div class="background-block">
+            <ul class="background-block__button">
+              <li class="background-block__button-list">
+                <button class="background-block__button-text background-block__button-text--all" type="button">Wszystkie</button>
+              </li>
+              <li class="background-block__button-list">
+                <button class="background-block__button-text background-block__button-text--page" type="button">Strony</button>
+              </li>
+              <li class="background-block__button-list">
+                <button class="background-block__button-text background-block__button-text--apps" type="button">Aplikacje</button>
+              </li>
+              <li class="background-block__button-list ">
+                <button class="background-block__button-text background-block__button-text--dizajn" type="button">Dizajn</button>
+              </li>
+              <li class="background-block__button-list">
+                <button class="background-block__button-text background-block__button-text--marketing" type="button">Marketing</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="card">
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br/>
+                platformą wykorzystywaną do<br/>
+                rozpowszechniania koronawirusa.<br/>
+                Firmy wykorzystują tę platformę do<br/>
+                celów szpiegowskich i ataków na<br/>
+                niezabezpieczone serwery<br/>
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-laptop.jpg" alt="laptop"
+              srcset="images/img_2/img-laptop@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-laptop-mobile.jpg" alt="laptop"
+              srcset="images/img_2/img-laptop-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Technocrack</span>
+                <p class="card-box__opis card-box__opis--paragraph">Strona internetowa</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br/>
+                platformą wykorzystywaną do<br/>
+                rozpowszechniania koronawirusa.<br/>
+                Firmy wykorzystują tę platformę do<br/>
+                celów szpiegowskich i ataków na<br/>
+                niezabezpieczone serwery<br/>
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-koszykowka.jpg" alt="panowie grajacy w koszykowke"
+              srcset="images/img_2/img-koszykowka@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-koszykowka-mobile.jpg" alt="panowie grajacy w koszykowke"
+              srcset="images/img_2/img-koszykowka-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Grafika New Orlean vs Golden Star</span>
+                <p class="card-box__opis card-box__opis--paragraph">Dizajn</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-delfin.jpg" alt="delfin z napisem"
+              srcset="images/img_2/img-delfin@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-delfin-mobile.jpg" alt="delfin z napisem"
+              srcset="images/img_2/img-delfin-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Restauracja Seafood</span>
+                <p class="card-box__opis card-box__opis--paragraph">Aplikacja</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-sluchawki.jpg" alt="sluchawki"
+              srcset="images/img_2/img-sluchawki@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-sluchawki-mobile.jpg" alt="sluchawki"
+              srcset="images/img_2/img-sluchawki-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Projekt Prime</span>
+                <p class="card-box__opis card-box__opis--paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-box.jpg" alt="dwa boxy"
+              srcset="images/img_2/img-box@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-box-mobile.jpg" alt="dwa boxy"
+              srcset="images/img_2/img-box-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Projekt Boxes</span>
+                <p class="card-box__opis card-box__opis--paragraph">Aplikacja</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-monitor.jpg" alt="monitor"
+              srcset="images/img_2/img-monitor@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-monitor-mobile.jpg" alt="monitor"
+              srcset="images/img_2/img-monitor-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Inspiration has no Borders</span>
+                <p class="card-box__opis card-box__opis--paragraph">Strona internetowa</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-ksiazka.jpg" alt="otwarta ksiazka"
+              srcset="images/img_2/img-ksiazka@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-ksiazka-mobile.jpg" alt="otwarta ksiazka"
+              srcset="images/img_2/img-ksiazka-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Magazyn Limited Edition</span>
+                <p class="card-box__opis card-box__opis--paragraph">Dizajn</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-napis.jpg" alt="wisiorek z napisem"
+              srcset="images/img_2/img-napis@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-napis-mobile.jpg" alt="wisiorek z napisem"
+              srcset="images/img_2/img-napis-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Projekt LAB</span>
+                <p class="card-box__opis card-box__opis--paragraph">Marketing</p>
+              </div>
+            </li>
+            <li class="card__list">
+              <div class="card__img-text">
+                Technocrack jest popularną<br />
+                platformą wykorzystywaną do<br />
+                rozpowszechniania koronawirusa.<br />
+                Firmy wykorzystują tę platformę do<br />
+                celów szpiegowskich i ataków na<br />
+                niezabezpieczone serwery<br />
+                konkurencji
+              </div>
+              <img class="card__img" src="images/img_2/img-laptop_2.jpg" alt="laptop z rękami na klawiaturze"
+              srcset="images/img_2/img-laptop_2@2x.jpg 2x"/>
+              <img class="card__img-mobile" src="images/img_2/img-laptop_2-mobile.jpg" alt="laptop z rękami na klawiaturze"
+              srcset="images/img_2/img-laptop_2-mobile@2x.jpg 2x"/>
+              <div class="card-box">
+                <span class="card-box__opis">Growing Business</span>
+                <p class="card-box__opis card-box__opis--paragraph">Aplikacja</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="background-footer">
+      <div class="container">
+        <div class="footer-block section">
+          <div class="footer">
+              <a class="footer__studio" href="#"><span class="footer__studio footer__studio--span">Web</span>Studio</a>
+            <address class="footer__adres">m. Warszawa, Aleje Jerozolimskie 21</address>
+            <div class="footer-item">
+              <a class="footer-item__link footer-item__link--mail" href="mailto:info@example.com">info@example.com</a> <br/>
+              <a class="footer-item__link" href="tel:+48111111111">+48 111 111 111</a>
+            </div>
+            <h5 class="footer-heading">Dołącz do nas</h5>
+            <div class="footer-icon">
+              <a class="footer-icon__link" href="https://www.instagram.com/">
+                <svg width="20" height="20">
+                  <use href="images/img_vector/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a class="footer-icon__link" href="https://twitter.com/?lang=pl">
+                <svg width="20" height="20">
+                  <use href="images/img_vector/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a class="footer-icon__link" href="https://www.facebook.com/">
+                <svg width="20" height="20">
+                  <use href="images/img_vector/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a class="footer-icon__link" href="https://pl.linkedin.com/">
+                <svg width="20" height="20">
+                  <use href="images/img_vector/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <form name="form" autocomplete="on">
+            <p class="footer-label">Zapisz się do newslettera</p>
+            <label>
+              <input class="footer-label__input" type="email" name="email" placeholder="E-mail" required/>
+            </label>
+            <button class="footer-label__button" type="submit">
+              Zapisz się
+              <svg class="footer-label__button-icon" width="24" height="24">
+                <use href="images/img_vector/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.nav__list-portfolio:hover,
+.nav__list-sub-agencja:hover,
+.nav__list-kontakt:hover,
+.nav__link:hover,
+.nav__mobile-agencja:hover,
+.nav__mobile-portfolio:hover,
+.nav__mobile-kontakt:hover,
+.nav__mobile-tel:hover,
+.nav__mobile-mail:hover,
+.person-img__icon-link:hover,
+.client__logo:hover,
+.footer-item__link:hover,
+.footer-icon__link:hover,
+.background-block__button-text:hover,
+.card__list:hover,
+.text-form__input:focus + .text-form__person,
+.text-form__input:focus + .text-form__tel,
+.text-form__input:focus + .text-form__mail,
+.text-form__input:focus,
+.text-form__coment:focus,
+.text-form__accept:checked + .text-form__accept-text::before {
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
